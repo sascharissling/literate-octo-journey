@@ -1,0 +1,39 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "todo": "Clean kitchen",
+      "done": false
+    },
+    {
+      "id": 2,
+      "todo": "Order dog food ",
+      "done": false
+    },
+    {
+      "id": 3,
+      "todo": "Reformat",
+      "done": false
+    },
+    {
+      "id": 4,
+      "todo": "Fix capacitor ",
+      "done": false
+    },
+    {
+      "id": 5,
+      "todo": "Do laundry ",
+      "done": false
+    },
+    {
+      "todo": "asdasdf",
+      "done": false,
+      "id": 6
+    },
+    {
+      "todo": "asdfasdfad",
+      "done": false,
+      "id": 7
+    }
+  ]
+}
