@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <HeaderBar>
       <AppTitle>
-        <h2>todo</h2>
+        <h2>ugly.</h2>
         <span>LIST</span>
       </AppTitle>
     </HeaderBar>

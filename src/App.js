@@ -54,7 +54,7 @@ function App() {
     getTodos();
   }
 
-  function handleDone(index) {
+  async function handleDone(index) {
     const newToDos = [...todolist];
     newToDos[index].done = true;
     setTodolist(newToDos);

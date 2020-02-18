@@ -26,6 +26,7 @@ export default function Footer({
           </BackButton>
           <form onSubmit={handleInputSubmit}>
             <TodoInput
+              data-test-id="todo-input"
               placeholder={"Add task..."}
               value={inputValue}
               onChange={handleInput}
@@ -36,7 +37,10 @@ export default function Footer({
       {!inputIsShown && (
         <>
           <TodoHandling onClick={handleRefresh}>Refresh</TodoHandling>
-          <AddButton onClick={() => setInputIsShown(true)}>
+          <AddButton
+            data-test-id="add-button"
+            onClick={() => setInputIsShown(true)}
+          >
             <img src={addIcon} alt={"add todo"} />
           </AddButton>
           <TodoHandling onClick={handleClear}>Clear</TodoHandling>
